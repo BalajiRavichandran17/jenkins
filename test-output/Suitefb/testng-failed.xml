@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suitefb]">
+  <parameter name=" Password" value="ravi@123"/>
+  <parameter name="Name" value="crbalaji17@gmail.com"/>
+  <test thread-count="5" name="Testfb(failed)">
+    <classes>
+      <class name="tesng.FBLoginTestNg">
+        <methods>
+          <include name="afterClass"/>
+          <include name="testLogics"/>
+          <include name="testLogics2"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tesng.FBLoginTestNg -->
+    </classes>
+  </test> <!-- Testfb(failed) -->
+</suite> <!-- Failed suite [Suitefb] -->

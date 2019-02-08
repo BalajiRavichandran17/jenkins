@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suitefb">
+<parameter name="Name" value="crbalaji17@gmail.com"></parameter>
+<parameter name=" Password" value="ravi@123"></parameter>
+  <test thread-count="5" name="Testfb">
+    <classes>
+      <class name="tesng.FBLoginTestNg"/>
+    </classes>
+  </test> <!-- Testfb -->
+</suite> <!-- Suitefb -->
